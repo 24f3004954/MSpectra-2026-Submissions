@@ -177,7 +177,7 @@ Instead of increasing communication, the system reduces it by encoding intellige
 
 ## Links (To be updated)
 
-- Live Demo: <Add Vercel Link>  
+- Live Demo: [<Add Vercel Link> ](https://m-spectra-2026-submissions-eosin.vercel.app) 
 - Video Demo: <Add Drive Link>  
 - Presentation: <Add PPT Link>  
 
