@@ -16,9 +16,22 @@ generate unique, non-conflicting mission updates for the other 4 drones to surro
 object. 
 • Success Metric: Collision-free path distribution and speed of swarm reconfiguration. 
 
-## Tech Stack:
-- HTML, CSS, JavaScript
-- Canvas API
+
+## Tech Stack
+
+- HTML, CSS, JavaScript  
+- Canvas API  
+- Vercel (Deployment)
+
+---
+
+## Links
+
+- Live Demo: [<Add Vercel Link> ](https://m-spectra-2026-submissions-eosin.vercel.app) 
+- Video Demo: <Add Drive Link>  
+- Presentation: <Add PPT Link>  
+
+---
 
 ## Description:
 Agent-based swarm coordination system with efficient communication and collision avoidance.
@@ -164,22 +177,6 @@ Leader Detection
 ## Key Insight
 
 Instead of increasing communication, the system reduces it by encoding intelligence into compact, interpretable instructions.
-
----
-
-## Tech Stack
-
-- HTML, CSS, JavaScript  
-- Canvas API  
-- Vercel (Deployment)
-
----
-
-## Links (To be updated)
-
-- Live Demo: [<Add Vercel Link> ](https://m-spectra-2026-submissions-eosin.vercel.app) 
-- Video Demo: <Add Drive Link>  
-- Presentation: <Add PPT Link>  
 
 ---
 
