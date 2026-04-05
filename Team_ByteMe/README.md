@@ -26,6 +26,48 @@ object.
 
 ---
 
+## Project Versions
+
+### Web Simulation (Primary Submission)
+Located in: swarm-web/
+
+- Browser-based interactive simulation
+- Deployed on Vercel
+- Recommended for evaluation
+
+### Pygame Simulation (Offline Prototype)
+Located in: swarm_project_pygame_offline/
+
+- Initial prototype developed using Python and Pygame
+- Demonstrates core swarm logic and coordination
+- Runs locally
+
+---
+
+## How to Run
+
+### Web Version (Recommended)
+
+1. Navigate to:
+   cd <team-folder>/swarm-web
+
+2. Open index.html in a browser  
+   OR use Live Server (recommended)
+
+---
+
+### Pygame Version (Optional)
+
+1. Navigate to:
+   cd <team-folder>/swarm_project_pygame_offline
+
+2. Run:
+   python main.py
+
+Note: Requires Python and pygame installed.
+
+---
+
 ## Links
 
 - Live Demo: <Add Vercel Link>  https://m-spectra-2026-submissions-eosin.vercel.app
