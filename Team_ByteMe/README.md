@@ -27,7 +27,7 @@ object.
 
 ## Links
 
-- Live Demo: [<Add Vercel Link> ](https://m-spectra-2026-submissions-eosin.vercel.app) 
+- Live Demo: [<Add Vercel Link> ] https://m-spectra-2026-submissions-eosin.vercel.app
 - Video Demo: <Add Drive Link>  https://drive.google.com/file/d/1TJyvfpOd8tvLVxiMMUsINdUZjEcRUvBL/view?usp=drivesdk
 - Presentation: <Add PPT Link>  https://drive.google.com/file/d/1U5xiNOUfEg1TcdpA61XCzxraY6bAyW4t/view?usp=drivesdk
 
