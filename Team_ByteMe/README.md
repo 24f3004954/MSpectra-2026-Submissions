@@ -22,25 +22,36 @@ object.
 - HTML, CSS, JavaScript  
 - Canvas API  
 - Vercel (Deployment)
+- YOLOv8 (Object Detection Model)
 
 ---
 
 ## Links
 
-- Live Demo: [<Add Vercel Link> ] https://m-spectra-2026-submissions-eosin.vercel.app
+- Live Demo: <Add Vercel Link>  https://m-spectra-2026-submissions-eosin.vercel.app
 - Video Demo: <Add Drive Link>  https://drive.google.com/file/d/1TJyvfpOd8tvLVxiMMUsINdUZjEcRUvBL/view?usp=drivesdk
 - Presentation: <Add PPT Link>  https://drive.google.com/file/d/1U5xiNOUfEg1TcdpA61XCzxraY6bAyW4t/view?usp=drivesdk
 
 ---
 
 ## Description:
-Agent-based swarm coordination system with efficient communication and collision avoidance.
+Agentic swarm coordination system focused on efficient communication under bandwidth constraints, enabling collision-free multi-drone formation through compact instruction encoding.
 
 - Agent compresses instructions to reduce communication load  
 - Broadcast-based coordination avoids O(N²) messaging  
 - Parametric instructions (radius and angle) enable efficient execution  
 - Communication layer handles delay, packet loss, and retries  
 - Collision-free formation with stable and fast convergence  
+
+---
+
+## Target Identification
+
+Object detection is performed using a YOLOv8n model for real-time human detection.
+
+The model was selected based on an accuracy–latency trade-off, making it suitable for deployment in time-sensitive drone systems.
+
+Note: Model weights are not included in this repository due to size constraints.
 
 ---
 
@@ -81,8 +92,8 @@ This shifts computation from communication to the drones, significantly reducing
 | Method | Complexity |
 |--------|-----------|
 | Peer-to-peer communication | O(N²) |
-| Naive broadcast | O(2N) |
-| Proposed system | O(N + 2) |
+| Naive broadcast | O(N) |
+| Proposed system | O(N) |
 
 This results in approximately 30% reduction in communication overhead.
 
@@ -156,11 +167,7 @@ This ensures non-overlapping paths and stable convergence.
 
 ## System Architecture
 
-Leader Detection  
-→ Agent Decision (Global Strategy)  
-→ Communication Layer (Broadcast)  
-→ Local Drone Execution  
-→ Formation Stabilization  
+Leader Detection  → Agent Decision (Global Strategy)  → Communication Layer (Broadcast)  → Local Drone Execution  → Formation Stabilization  
 
 ---
 
